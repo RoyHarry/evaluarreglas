@@ -1,0 +1,117 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>pe.com.claro</groupId>
+		<artifactId>claro-venta-evaluarreglas</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>claro-venta-evaluarreglas-integration</artifactId>
+	<name>claro-venta-evaluarreglas-integration</name>
+	<properties>
+		<claro.rest.api.client>2.0.0</claro.rest.api.client>
+		<claro.venta.evaluarreglas.canonical>1.0.0</claro.venta.evaluarreglas.canonical>
+		<java-version>1.8</java-version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>pe.com.claro</groupId>
+			<artifactId>claro-rest-api-client</artifactId>
+			<version>${claro.rest.api.client}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>1.8</version>
+		</dependency>
+		<dependency>
+			<groupId>pe.com.claro</groupId>
+			<artifactId>claro-rest-api-client</artifactId>
+			<version>${claro.rest.api.client}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>pe.com.claro</groupId>
+			<artifactId>claro-venta-evaluarreglas-canonical</artifactId>
+			<version>${claro.venta.evaluarreglas.canonical}</version>
+		</dependency>
+		
+<!-- 		<dependency> -->
+<!-- 			<groupId>identidad</groupId> -->
+<!-- 			<artifactId>ExpositionValidaSOAP11BindingQSService-Client</artifactId> -->
+<!-- 			<version>1.0</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>encriptar</groupId> -->
+<!-- 			<artifactId>EncriptarSOAP11BindingQSService-Client</artifactId> -->
+<!-- 			<version>1.0</version> -->
+<!-- 		</dependency> -->
+		
+		<dependency>
+			<groupId>eai</groupId>
+			<artifactId>ClaroEvalClientesReglasDecisionService-Client</artifactId>
+			<version>1</version>
+		</dependency>
+		
+		
+		<dependency>
+			<groupId>eai</groupId>
+			<artifactId>ConsultaDeudaCuenta-Client</artifactId>
+			<version>1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>eai</groupId>
+			<artifactId>ConsultaSegmentoCliente-Client</artifactId>
+			<version>1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>eai</groupId>
+			<artifactId>ConsultaDatosClienteBRMSOAC-Client</artifactId>
+			<version>1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>eai</groupId>
+			<artifactId>ConsultaCuotaClienteSOAC-Client</artifactId>
+			<version>1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>eai</groupId>
+			<artifactId>GestionAcuerdoWS-Client</artifactId>
+			<version>1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>eai</groupId>
+			<artifactId>EbsCreditosWS-Client</artifactId>
+			<version>1</version>
+		</dependency>
+		
+<!-- 		<dependency> -->
+<!-- 			<groupId>ClaroAppVenta</groupId> -->
+<!-- 			<artifactId>ClaroEvalClientesReglasDecisionService</artifactId> -->
+<!-- 			<version>v1</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>ClaroAppVenta</groupId> -->
+<!-- 			<artifactId>ConsultaDeudaCuenta</artifactId> -->
+<!-- 			<version>v1</version> -->
+<!-- 		</dependency> -->
+	</dependencies>
+	
+<!-- 		<distributionManagement> -->
+<!-- 			<repository> -->
+<!-- 				<id>nexus</id> -->
+<!-- 				<name>Releases</name> -->
+<!-- 				<url>http://172.19.157.82:8081/repository/maven-releases</url> -->
+<!-- 			</repository> -->
+<!-- 			<snapshotRepository> -->
+<!-- 				<id>nexus</id> -->
+<!-- 				<name>Snapshot</name> -->
+<!-- 				<url>http://172.19.157.82:8081/repository/maven-snapshots</url> -->
+<!-- 			</snapshotRepository> -->
+<!-- 		</distributionManagement> -->
+</project>

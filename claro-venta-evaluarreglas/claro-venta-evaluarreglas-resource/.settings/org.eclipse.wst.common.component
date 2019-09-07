@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="claro-venta-evaluarreglas-resource-1.0.0">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="claro-venta-evaluarreglas-domain-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-venta-evaluarreglas-domain/claro-venta-evaluarreglas-domain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="claro-rest-api-client-2.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-rest-api-client/claro-rest-api-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="claro-rest-api-common-2.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-rest-api-common/claro-rest-api-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="claro-common-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-common/claro-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="claro-venta-evaluarreglas-model-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-venta-evaluarreglas-model/claro-venta-evaluarreglas-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="claro-venta-evaluarreglas-model-sga-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-venta-evaluarreglas-model-sga/claro-venta-evaluarreglas-model-sga">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="claro-venta-evaluarreglas-model-mssap-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-venta-evaluarreglas-model-mssap/claro-venta-evaluarreglas-model-mssap">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="claro-venta-evaluarreglas-model-bscs-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-venta-evaluarreglas-model-bscs/claro-venta-evaluarreglas-model-bscs">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="claro-venta-evaluarreglas-canonical-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-venta-evaluarreglas-canonical/claro-venta-evaluarreglas-canonical">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="claro-venta-evaluarreglas-integration-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/claro-venta-evaluarreglas-integration/claro-venta-evaluarreglas-integration">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="claro-venta-evaluarreglas-resource"/>
+        <property name="java-output-path" value="/claro-venta-evaluarreglas-resource/target/classes"/>
+    </wb-module>
+</project-modules>

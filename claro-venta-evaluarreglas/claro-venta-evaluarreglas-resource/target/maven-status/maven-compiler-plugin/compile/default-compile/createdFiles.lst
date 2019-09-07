@@ -1,0 +1,6 @@
+pe\com\claro\venta\evaluarreglas\resource\EvaluarReglasResource.class
+pe\com\claro\venta\evaluarreglas\resource\util\HTML5CorsFilter.class
+pe\com\claro\venta\evaluarreglas\resource\util\ValidSolicitudHttp.class
+pe\com\claro\venta\evaluarreglas\resource\util\ApplicationConfig.class
+pe\com\claro\venta\evaluarreglas\resource\mapper\CastingMapper.class
+pe\com\claro\venta\evaluarreglas\resource\util\SwaggerJaxrsConfig.class

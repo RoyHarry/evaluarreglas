@@ -1,0 +1,69 @@
+	<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+		<modelVersion>4.0.0</modelVersion>
+		<parent>
+			<groupId>pe.com.claro</groupId>
+			<artifactId>claro-venta-evaluarreglas</artifactId>
+			<version>1.0.0</version>
+		</parent>
+		<artifactId>claro-venta-evaluarreglas-resource</artifactId>
+		<packaging>war</packaging>
+		<name>claro-venta-evaluarreglas-resource</name>
+		<properties>
+			<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+			<maven.war.plugin>2.3</maven.war.plugin>
+		</properties>
+		<dependencies>
+			<dependency>
+				<groupId>pe.com.claro</groupId>
+				<artifactId>claro-venta-evaluarreglas-domain</artifactId>
+				<version>1.0.0</version>
+				<exclusions>
+					<exclusion>
+						<artifactId>javax.inject</artifactId>
+						<groupId>org.glassfish.hk2.external</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>guava</artifactId>
+						<groupId>com.google.guava</groupId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+		
+			<dependency>
+			    <groupId>com.google.code.gson</groupId>
+			    <artifactId>gson</artifactId>
+			    <version>2.8.0</version>
+			</dependency>
+		
+			<dependency>
+			    <groupId>org.mockito</groupId>
+			    <artifactId>mockito-all</artifactId>
+			    <version>1.8.4</version>
+			    <scope>test</scope>
+			</dependency>
+	
+			<dependency>
+			    <groupId>junit</groupId>
+			    <artifactId>junit</artifactId>
+			    <version>4.12</version>
+			    <scope>test</scope>
+			</dependency>
+		
+		
+		</dependencies>
+		<build>
+			<sourceDirectory>src/main/java</sourceDirectory>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-war-plugin</artifactId>
+					<version>${maven.war.plugin}</version>
+					<configuration>
+						<failOnMissingWebXml>false</failOnMissingWebXml>
+					</configuration>
+				</plugin>
+			</plugins>
+		</build>
+
+	</project>

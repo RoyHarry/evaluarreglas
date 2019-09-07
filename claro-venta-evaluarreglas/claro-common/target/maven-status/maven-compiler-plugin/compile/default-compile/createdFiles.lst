@@ -1,0 +1,12 @@
+pe\com\claro\common\bean\HeaderRequest.class
+pe\com\claro\common\exception\ConvertException.class
+pe\com\claro\common\util\JAXBUtilitarios.class
+pe\com\claro\common\bean\ParametrosTypeWS$ObjetoOpcional.class
+pe\com\claro\common\exception\MappingResponseException.class
+pe\com\claro\common\bean\ParametrosType.class
+pe\com\claro\common\property\Constantes.class
+pe\com\claro\common\util\ClaroUtil.class
+pe\com\claro\common\bean\BodyResponse.class
+pe\com\claro\common\bean\HeaderResponse.class
+pe\com\claro\common\bean\ParametrosTypeWS.class
+pe\com\claro\common\util\PropertiesExternos.class

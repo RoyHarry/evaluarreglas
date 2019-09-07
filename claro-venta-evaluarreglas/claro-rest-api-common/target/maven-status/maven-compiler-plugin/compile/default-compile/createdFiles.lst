@@ -1,0 +1,16 @@
+pe\com\claro\common\resource\exception\NotFoundException.class
+pe\com\claro\common\exception\DBException.class
+pe\com\claro\common\resource\exception\BadRequestException.class
+pe\com\claro\common\resource\exception\BadUsageException.class
+pe\com\claro\common\resource\exception\CastException.class
+pe\com\claro\common\resource\exception\ProviderExceptionMapper.class
+pe\com\claro\common\resource\exception\WSClientException.class
+pe\com\claro\common\resource\exception\ApiException.class
+pe\com\claro\common\resource\exception\DBException.class
+pe\com\claro\common\resource\exception\GeneralRuntimeException.class
+pe\com\claro\common\resource\exception\ErrorMessage.class
+pe\com\claro\common\domain\repository\AbstractRepository.class
+pe\com\claro\common\resource\exception\WSException.class
+pe\com\claro\common\resource\util\ApiResponse.class
+pe\com\claro\common\model\BaseEntity.class
+pe\com\claro\common\resource\exception\BaseException.class

@@ -1,0 +1,8 @@
+pe\com\claro\restclient\RestClient$RestClientBuilder.class
+pe\com\claro\restclient\RestClient.class
+pe\com\claro\restclient\AbstractRestClient.class
+pe\com\claro\restclient\entity\AuthenticationMode.class
+pe\com\claro\restclient\entity\AuthenticationToken.class
+pe\com\claro\restclient\RestClient$1.class
+pe\com\claro\restclient\exception\ErrorResponse.class
+pe\com\claro\restclient\RestClient$2.class

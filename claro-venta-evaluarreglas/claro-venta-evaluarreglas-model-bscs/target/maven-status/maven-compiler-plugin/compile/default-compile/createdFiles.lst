@@ -1,0 +1,11 @@
+pe\com\claro\venta\evaluarreglas\model\BscsDetalleXLineaBeanResponse.class
+pe\com\claro\venta\evaluarreglas\model\BscsDXLpCurClienteBean.class
+pe\com\claro\venta\evaluarreglas\model\BscsDXLpCurDetalleBean.class
+pe\com\claro\venta\evaluarreglas\model\BscsGetCoidResponse.class
+pe\com\claro\venta\evaluarreglas\model\BscsTim127ComPagoBeanRequest.class
+pe\com\claro\venta\evaluarreglas\model\BscsListaServiciosRequest.class
+pe\com\claro\venta\evaluarreglas\model\BscsGetCoidRequest.class
+pe\com\claro\venta\evaluarreglas\model\BscsDetalleXLineaBeanRequest.class
+pe\com\claro\venta\evaluarreglas\model\BscsDetalleCFXContrato.class
+pe\com\claro\venta\evaluarreglas\model\BscsTim127ComPagoBeanResponse.class
+pe\com\claro\venta\evaluarreglas\model\BscsListaServiciosResponse.class
